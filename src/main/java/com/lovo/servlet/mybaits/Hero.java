@@ -1,35 +1,34 @@
 package com.lovo.servlet.mybaits;
 
-
 /**
- * 英雄
+ *英雄
  */
 public class Hero {
-    private String derma;//皮肤
-    private String skill;//技能
-    private String rune;//符文
+    private String pymbol;//符文
+    private String kill;//技能
+    private  String kien;//皮肤
 
-    public String getDerma() {
-        return derma;
+    public String getPymbol() {
+        return pymbol;
     }
 
-    public void setDerma(String derma) {
-        this.derma = derma;
+    public void setPymbol(String pymbol) {
+        this.pymbol = pymbol;
     }
 
-    public String getSkill() {
-        return skill;
+    public String getKill() {
+        return kill;
     }
 
-    public void setSkill(String skill) {
-        this.skill = skill;
+    public void setKill(String kill) {
+        this.kill = kill;
     }
 
-    public String getRune() {
-        return rune;
+    public String getKien() {
+        return kien;
     }
 
-    public void setRune(String rune) {
-        this.rune = rune;
+    public void setKien(String kien) {
+        this.kien = kien;
     }
 }
